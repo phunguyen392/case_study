@@ -1,7 +1,7 @@
-let student = new Student('01', "Biển Cửa Tùng", 'KP Hòa Lý Hải', 'Thắng cảnh','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUmk3pLaSMAMzh9ZsQfV4e5qgyahNr0Y3iQ&usqp=CAU' );
-let student1 = new Student('02','Địa đạo Vịnh Mốc','KP Trung Nam','Di tích lịch sử','https://truyenhinhvov.qltns.mediacdn.vn/239964650902032384/2020/12/25/dia-dao-vinh-moc-mot-the-gioi-song-duoi-long-dat1-1608865692105-1608865692341685980801.jpg');
-let student2 = new Student('03','Cầu Cửa Tùng','KP An Đức II','Địa điểm du lịch','https://vnanet.vn/Data/Articles/2020/05/07/4668264/vna_potal_khu_neo_dau_tranh_tru_bao_cua_tung_quang_tri_buoc_dau_phat_huy_hieu_qua_161629792_stand.jpg');
-let student3 = new Student('04','Rừng Rú Lịnh','KP An Du Đông','Khu sinh thái','https://cdnimg.vietnamplus.vn/t660/uploaded/lepz/2020_09_01/ttxvn_20200901_chat_pha_rung.jpg');
+let student = new Student('01', "Bánh mì", '43', 'Bánh kẹo','https://upload.wikimedia.org/wikipedia/commons/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png' );
+let student1 = new Student('02','Sting','32','Nước giải khát','https://product.hstatic.net/1000301274/product/_10101026__sting_dau_320ml_sleek_lon_db0105ad0db044bb939c7e7b8791d3e6_1024x1024.png');
+let student2 = new Student('03','555','12','Thuốc lá','https://i0.wp.com/thuoclangoainhap.com/wp-content/uploads/2022/03/555-xanh-det-555-mandarin-state-express-thuoc-la-ngoai-nhap-com-00-01.jpg?fit=800%2C800&ssl=1');
+let student3 = new Student('04','Kẹo mút','00','Bánh kẹo','https://baobivinam.com/image/cache/catalog/que%20keo%20mut-800x800.jpeg');
 
 let arr =[student, student1, student2,student3 ];
 let manage = new StudentManagement(arr);
